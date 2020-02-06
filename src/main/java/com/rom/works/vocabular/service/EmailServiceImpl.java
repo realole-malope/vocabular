@@ -16,12 +16,12 @@ public class EmailServiceImpl implements EmailService {
 
     @Override
     public void sendSimpleMessage(String to, String subject, String text) {
-        log.info("Creating message to send to: "+to);
+        log.info("Creating message to send to: " + to);
         SimpleMailMessage message = new SimpleMailMessage();
         message.setTo(to);
         message.setSubject(subject);
         message.setText(text);
-        emailSender.send(message);
-        log.info("Email sent to: "+to);
+        // emailSender.send(message);
+        log.info("Message: " + message);
     }
 }
