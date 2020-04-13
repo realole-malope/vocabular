@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dip">
+
+    <EditText
+        android:id="@+id/notification_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="@string/_1"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textSize="14sp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/notification_quantity"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
+        app:layout_constraintBottom_toBottomOf="@+id/notification_quantity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/notification_quantity"
+        app:layout_constraintTop_toTopOf="@+id/notification_quantity" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

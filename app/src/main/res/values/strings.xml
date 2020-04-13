@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Vocabular</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="definition_name_text">Hi</string>
+    <string name="definition_meaning_text">Used as a friendly greeting or to attract attention.</string>
+    <string name="definition_example_text">“Hi there. How was the flight?”</string>
+    <string name="submit">submit</string>
+    <string name="vocabular">vocabular</string>
+    <string name="hi">hi</string>
+    <string name="word">Word</string>
+    <string name="definition">Definition</string>
+    <string name="example">Example</string>
+    <string name="weekday_monday">Monday</string>
+    <string name="channel_name">vocabular_notifications</string>
+    <string name="channel_description">Improving your vocab one word at a time</string>
+    <string name="_1">Number of words to remind you with</string>
+</resources>
